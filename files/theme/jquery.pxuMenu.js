@@ -35,11 +35,11 @@
   Menu.prototype.init = function() {
     var self = this;
 
-    $('body').addClass("more-nav-on");
-    self.generateMore();
+    //$('body').addClass("more-nav-on");
+    //self.generateMore();
 
     $(window).on('resize', function() {
-      self.generateMore();
+      //self.generateMore();
     });
   };
 
@@ -104,7 +104,7 @@
     $moreChildren.appendTo(this.$menu);
 
     // Remove the injected wrapper item
-    this.$more.remove();
+    //this.$more.remove();
   };
 
   /**
