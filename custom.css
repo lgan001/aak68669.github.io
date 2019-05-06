@@ -10,8 +10,8 @@
 		z-index: 99999;
 	}
 }
-.content-wrap{
-	margin-bottom: 100px;
+.content-wrap:last-child{
+	margin-bottom: :60px;
 }
 body{
 	background-color: #fff;
