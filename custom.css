@@ -11,7 +11,7 @@
 	}
 }
 .container:last-child{
-	margin-bottom: :100px !important;
+	margin-bottom:100px !important;
 }
 body{
 	background-color: #fff;
