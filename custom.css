@@ -10,7 +10,7 @@
 		z-index: 99999;
 	}
 }
-.container:last-child{
+.content-wrap .container:last-child{
 	margin-bottom:100px !important;
 }
 body{
