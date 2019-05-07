@@ -115,7 +115,6 @@ var STYLE_PREFIX = 'wsite';
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'AW-752950715');
   gtag('config', 'UA-139547169-1');
 
   function aclick(){
@@ -125,25 +124,8 @@ var STYLE_PREFIX = 'wsite';
   'event_category' : '點擊',
   'event_label' : '首頁'
 });
-	  gtag_report_conversion();
 	//console.log('ga finish');
 }
-	<!-- Event snippet for 加好友-ad conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<script>
-function gtag_report_conversion(url) {
-  var callback = function () {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
-    }
-  };
-  gtag('event', 'conversion', {
-      'send_to': 'AW-752950715/9dfDCIOjuZ0BELu7hOcC',
-      'event_callback': callback
-  });
-  return false;
-}
-</script>
 
 </script>
 
